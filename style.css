@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 80vw;
+  margin: auto;
+
+}
+
+header {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.tinyBorder {
+  width: 100%;
+  background-image: url("images/hr-img.png");
+  background-repeat: repeat;
+  height: 20px;
+}
+
+.leftItems {
+  display: flex;
+  border: 1px solid black;
+  width: 20vw;
+  height: 3vw;
+}
+
+.leftItems h2 {
+  font-size: 30px;
+}
+
+.leftItems p {
+  color: rgb(125, 125, 125);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.rightItems {
+  display: flex;
+  border: 1px solid black;
+
+}
+
+.rightRowImages {
+  display: flex;
+}
+
+.mostRightRowImages {
+  display: flex;
+}
+
+
+.hero {
+  width: 100%;
+}
+
+body {
+  font-size: 40px;
+}
+
+.main {
+  justify-content: center;
+  margin: auto;
+  font-size: large;
+  border: 5px;
+}
