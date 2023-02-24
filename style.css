@@ -20,23 +20,43 @@ header {
   width: 100%;
   background-image: url("images/hr-img.png");
   background-repeat: repeat;
-  height: 20px;
+  height: 15px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+
 }
 
 .leftItems {
   display: flex;
   border: 1px solid black;
+  justify-content: space-between;
   width: 20vw;
-  height: 3vw;
+  height: 4vw;
 }
 
 .leftItems h2 {
   font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-style: italic;
+
 }
 
 .leftItems p {
   color: rgb(125, 125, 125);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
 
 
 }
@@ -69,4 +89,135 @@ body {
   margin: auto;
   font-size: large;
   border: 5px;
+}
+
+#Header-Message {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+
+}
+
+#posted p {
+  font-size: 100px;
+
+}
+
+#Header-Message p {
+  font-size: 18px;
+  color: rgb(151, 151, 151);
+  display: inline-block;
+}
+
+.Print p {
+  display: inline-block;
+
+}
+
+h1 {
+  margin-bottom: -20px;
+}
+
+.hero {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main p {
+  text-indent: 30px;
+  line-height: 1.1;
+}
+
+.checksbox {
+  display: flex;
+  justify-content: space-between;
+  background-image: url(/images/list-bg.png);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  width: 100%;
+  padding: 50px;
+}
+
+.leftitems {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* position: absolute;
+  top: 130%;
+  left: 20%;
+  transform: translate(-10%, -200%); */
+}
+
+.rightitems {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  top: 130%;
+  left: 70%;
+  transform: translate(-30%, -20%);
+} */
+}
+
+
+.bottom-left {
+  display: flex;
+  width: 960px;
+  margin: 30px auton 0;
+}
+
+
+
+#bio {
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+#bio h2 {
+  font-size: 20px;
+  font-weight: 300px;
+  margin-bottom: 10px;
+}
+
+#bio p {
+  color: rgb(125, 125, 125);
+  font-size: 20px;
+}
+
+a {
+  font-size: 20px;
+  background-color: rgba(175, 105, 8, 0.84);
+  color: white;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-decoration: unset;
+  padding: 20px;
+  width: 210px;
+  margin-top: auto;
+}
+
+#footer {
+  align-items: center;
+  margin: 40px;
+  margin-left: 450px;
+  margin-top: 91px;
+
+}
+
+#footer img {
+  height: 45px;
+}
+
+#Copy p {
+  font-size: 23px;
+  margin: auto;
+  color: rgb(173, 171, 171);
+  margin-left: 250px;
+
+}
+
+#proud {
+  text-indent: 70px;
 }
