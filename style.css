@@ -132,7 +132,7 @@ h1 {
 .checksbox {
   display: flex;
   justify-content: space-between;
-  background-image: url(/images/list-bg.png);
+  background-image: url(images/list-bg.png);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
   width: 100%;
   padding: 50px;
