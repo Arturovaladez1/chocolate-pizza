@@ -40,7 +40,7 @@ h1 {
 
 .leftItems {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   justify-content: space-between;
   width: 20vw;
   height: 4vw;
@@ -63,7 +63,7 @@ h1 {
 
 .rightItems {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
 }
 
